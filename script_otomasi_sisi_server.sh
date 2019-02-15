@@ -26,7 +26,7 @@ then
 	sudo apt-get install --y apache2 php php-mysql
 	echo " Melakukan Instalasi Database Server "
 	sudo apt-get install --y mysql-server
-	echo " Instlasai Selesai .. Well Done "
+	echo " Instalasi Selesai .. Well Done "
 	exit 0
 else
 	echo " Instalasi dibatalkan "
