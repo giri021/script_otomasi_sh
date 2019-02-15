@@ -2,7 +2,7 @@
 
 jawaban="Y"
 
-read -p "Apakah kamu yakin akan melakukan setup Apps Web ini?(Y/n) " pilih;
+read -p "Apakah kamu yakin akan melakukan setup Apps Web ini ?(Y/n) " pilih;
 
 if [ $pilih==$jawaban ];
 then
@@ -15,10 +15,10 @@ then
 	sudo rm -Rf /var/www/html/*
 	echo " Memindahkan isi direktori sosial-media-master/* ke /var/www/html "
 	sudo mv sosial-media-master/* /var/www/html
-	echo " Setup Selesai .. Well Done Giri "
+	echo " Setup Selesai .. Good Job Well Done Giri "
 	exit 0
 else
 	echo " Setup ditunda atau dibatalkan Giri "
 	exit 1
-fi 
+fi
 
